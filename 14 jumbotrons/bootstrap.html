@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    
+    <title>Bootstrap Ninja</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+
+            <!-- navbar brand logo -->
+            <div class="navbar-header">
+                <a href="/index.html" class="navbar-brand">HOME PAGE</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mydropdown">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- put a div around the items that to come under hamburger menu icon -->
+            <div class="collapse navbar-collapse" id="mydropdown">
+                <!-- navbar menu items -->
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Ninja Training</a></li>
+                    <li><a href="#">Wizard Training</a></li>
+                    <li><a href="#">Psych Training</a></li>
+                    <li><a href="#">Code Training</a></li>
+                </ul>
+
+                <!-- navbar buttons -->
+                <!-- provide button margin and padding for better looks -->
+                <div>
+                    <button class="btn btn-primary navbar-button navbar-right">
+                        Register
+                    </button>
+                    <button class="btn btn-default navbar-button navbar-right"> Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid content">
+        <div class="row jumbotron">
+            <div class="col-xs-12">
+                <h1>Smokey Bacon</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos perferendis nisi delectus amet, necessitatibus animi facilis, eaque repellendus quia, veritatis voluptate voluptas at eligendi omnis! Facilis repellat odit quis perspiciatis?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus inventore accusamus natus nihil voluptatum deleniti, quos quia, ducimus ipsum, eligendi id quis aliquid harum libero! Praesentium asperiores facilis fugiat modi.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <h2>Headding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi officiis nostrum inventore vitae eligendi sint iure nisi illum qui earum, minus, deleniti sequi eaque! Quia laboriosam modi repellat! Commodi, iure.</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Headding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi officiis nostrum inventore vitae eligendi sint iure nisi illum qui earum, minus, deleniti sequi eaque! Quia laboriosam modi repellat! Commodi, iure.</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Headding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi officiis nostrum inventore vitae eligendi sint iure nisi illum qui earum, minus, deleniti sequi eaque! Quia laboriosam modi repellat! Commodi, iure.</p>
+            </div>
+            <div class="col-md-3">
+                <h2>Headding</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi officiis nostrum inventore vitae eligendi sint iure nisi illum qui earum, minus, deleniti sequi eaque! Quia laboriosam modi repellat! Commodi, iure.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script>
+        $(".nav li").on("click", function(){
+            $(".nav li").removeClass("active");
+            $(this).addClass("active");
+        })
+    </script>
+</body>
+</html>

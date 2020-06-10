@@ -1,0 +1,28 @@
+.container-fluid, .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+.thumb {
+    padding: 60px 10px;
+    text-align: center;
+    background-color: #ddd;
+}
+
+.thumb:nth-child(even) {
+    background-color: #eee;
+}
+
+.thumb:nth-child(odd) {
+    clear: both;
+}
+
+h1, h2 {
+    margin: 30px 0;
+}
+
